@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f986a1fa1891e34fb1e3785b4359860, type: 3}
+  m_Name: Puzzle_TaalWerkwoorden
+  m_EditorClassIdentifier: 
+  puzzleId: taal_werkwoorden
+  title: Werkwoorden
+  windowTitle: TAALCOMPUTER - WERKWOORDEN
+  category: 0
+  difficulty: 1
+  skin: 0
+  instructions: Beantwoord de vragen over werkwoorden en zinnen.
+  completionMessage: Goed gedaan! Je hebt de opdracht voltooid.
+  stationPrompt: Computer gebruiken
+  maxWrongAttempts: 0
+  timeLimitSeconds: 0
+  rewardsOnlyOnce: 1
+  rewards:
+  - kind: 0
+    targetId: klaslokaal_sleutel
+    amount: 1
+    eventChannel: {fileID: 0}
+    displayMessage: Je hebt de sleutel van het klaslokaal gevonden!
+  shuffleQuestions: 0
+  shuffleChoices: 1
+  questions:
+  - type: 0
+    prompt: Welke zin is correct geschreven?
+    image: {fileID: 0}
+    choices:
+    - Ik wordt morgen tien jaar.
+    - Ik word morgen tien jaar.
+    - Ik wort morgen tien jaar.
+    correctChoiceIndex: 1
+    keepChoiceOrder: 0
+    acceptedAnswers: []
+    caseSensitive: 0
+    numberAnswer: 0
+    tolerance: 0
+    inputPlaceholder: 
+    hint: 'Denk aan de regel: bij ''ik'' komt er geen -t achter.'
+    explanation: 'Bij ''ik'' laat je de -t weg: ik word.'
+  - type: 1
+    prompt: Wat is het voltooid deelwoord van 'lopen'?
+    image: {fileID: 0}
+    choices: []
+    correctChoiceIndex: 0
+    keepChoiceOrder: 0
+    acceptedAnswers:
+    - gelopen
+    caseSensitive: 0
+    numberAnswer: 0
+    tolerance: 0
+    inputPlaceholder: 
+    hint: Begin met 'ge-'.
+    explanation: 'Je schrijft: ik heb gelopen.'
+  - type: 1
+    prompt: 'Wat is de persoonsvorm in deze zin?
+
+
+      De kinderen spelen buiten
+      voetbal.'
+    image: {fileID: 0}
+    choices: []
+    correctChoiceIndex: 0
+    keepChoiceOrder: 0
+    acceptedAnswers:
+    - spelen
+    caseSensitive: 0
+    numberAnswer: 0
+    tolerance: 0
+    inputPlaceholder: 
+    hint: Zet de zin in de verleden tijd. Welk woord verandert?
+    explanation: In de verleden tijd wordt 'spelen' 'speelden'. Dat woord verandert,
+      dus het is de persoonsvorm.
+  - type: 0
+    prompt: Wat is het tegenovergestelde van 'voorzichtig'?
+    image: {fileID: 0}
+    choices:
+    - onvoorzichtig
+    - behoedzaam
+    - rustig
+    - zorgvuldig
+    correctChoiceIndex: 0
+    keepChoiceOrder: 0
+    acceptedAnswers: []
+    caseSensitive: 0
+    numberAnswer: 0
+    tolerance: 0
+    inputPlaceholder: 
+    hint: 
+    explanation: Onvoorzichtig is het tegenovergestelde. 'Behoedzaam' betekent juist
+      hetzelfde als voorzichtig.
+  - type: 1
+    prompt: 'Vul de verleden tijd in:
+
+
+      Gisteren (fietsen) wij naar school.'
+    image: {fileID: 0}
+    choices: []
+    correctChoiceIndex: 0
+    keepChoiceOrder: 0
+    acceptedAnswers:
+    - fietsten
+    caseSensitive: 0
+    numberAnswer: 0
+    tolerance: 0
+    inputPlaceholder: 
+    hint: Gebruik 't kofschip.
+    explanation: 'De stam is ''fiets'' en eindigt op een ''s'' (het staat in ''t
+      kofschip). Dus: -ten, fietsten.'
+  - type: 1
+    prompt: Wat is het voltooid deelwoord van 'schrijven'?
+    image: {fileID: 0}
+    choices: []
+    correctChoiceIndex: 0
+    keepChoiceOrder: 0
+    acceptedAnswers:
+    - geschreven
+    caseSensitive: 0
+    numberAnswer: 0
+    tolerance: 0
+    inputPlaceholder: 
+    hint: 
+    explanation: 'Je schrijft: ik heb geschreven.'

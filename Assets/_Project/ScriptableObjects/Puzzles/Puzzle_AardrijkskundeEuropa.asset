@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f986a1fa1891e34fb1e3785b4359860, type: 3}
+  m_Name: Puzzle_AardrijkskundeEuropa
+  m_EditorClassIdentifier: 
+  puzzleId: aardrijkskunde_europa
+  title: Aardrijkskunde
+  windowTitle: AARDRIJKSKUNDE-BORD - GROEP 7
+  category: 2
+  difficulty: 0
+  skin: 1
+  instructions: Kies steeds het juiste antwoord.
+  completionMessage: Goed gedaan! Je weet veel over de wereld.
+  stationPrompt: Bord bekijken
+  maxWrongAttempts: 0
+  timeLimitSeconds: 0
+  rewardsOnlyOnce: 1
+  rewards:
+  - kind: 1
+    targetId: bord_opgelost
+    amount: 1
+    eventChannel: {fileID: 11400000, guid: 36e26ec6603026d41aa08ef24bc093bf, type: 2}
+    displayMessage: Er klikt iets in de muur...
+  shuffleQuestions: 0
+  shuffleChoices: 1
+  questions:
+  - type: 0
+    prompt: "Wat is de hoofdstad van Belgi\xEB?"
+    image: {fileID: 0}
+    choices:
+    - Brussel
+    - Antwerpen
+    - Gent
+    - Luik
+    correctChoiceIndex: 0
+    keepChoiceOrder: 0
+    acceptedAnswers: []
+    caseSensitive: 0
+    numberAnswer: 0
+    tolerance: 0
+    inputPlaceholder: 
+    hint: 
+    explanation: "Brussel is de hoofdstad van Belgi\xEB."
+  - type: 0
+    prompt: Wat is de hoofdstad van de provincie Zeeland?
+    image: {fileID: 0}
+    choices:
+    - Middelburg
+    - Vlissingen
+    - Goes
+    - Terneuzen
+    correctChoiceIndex: 0
+    keepChoiceOrder: 0
+    acceptedAnswers: []
+    caseSensitive: 0
+    numberAnswer: 0
+    tolerance: 0
+    inputPlaceholder: 
+    hint: 
+    explanation: Middelburg is de hoofdstad van Zeeland.
+  - type: 0
+    prompt: Hoeveel provincies heeft Nederland?
+    image: {fileID: 0}
+    choices:
+    - 10
+    - 12
+    - 14
+    - 16
+    correctChoiceIndex: 1
+    keepChoiceOrder: 0
+    acceptedAnswers: []
+    caseSensitive: 0
+    numberAnswer: 0
+    tolerance: 0
+    inputPlaceholder: 
+    hint: 
+    explanation: Nederland heeft 12 provincies.
+  - type: 0
+    prompt: Door welke stad stroomt de rivier de Seine?
+    image: {fileID: 0}
+    choices:
+    - Londen
+    - Madrid
+    - Parijs
+    - Berlijn
+    correctChoiceIndex: 2
+    keepChoiceOrder: 0
+    acceptedAnswers: []
+    caseSensitive: 0
+    numberAnswer: 0
+    tolerance: 0
+    inputPlaceholder: 
+    hint: 
+    explanation: De Seine stroomt door Parijs.
+  - type: 0
+    prompt: Op welk continent ligt Kenia?
+    image: {fileID: 0}
+    choices:
+    - "Azi\xEB"
+    - Afrika
+    - Europa
+    - Zuid-Amerika
+    correctChoiceIndex: 1
+    keepChoiceOrder: 0
+    acceptedAnswers: []
+    caseSensitive: 0
+    numberAnswer: 0
+    tolerance: 0
+    inputPlaceholder: 
+    hint: 
+    explanation: Kenia ligt in Afrika.
+  - type: 1
+    prompt: Hoe heet de hoofdstad van Duitsland?
+    image: {fileID: 0}
+    choices: []
+    correctChoiceIndex: 0
+    keepChoiceOrder: 0
+    acceptedAnswers:
+    - Berlijn
+    caseSensitive: 0
+    numberAnswer: 0
+    tolerance: 0
+    inputPlaceholder: 
+    hint: Het begint met een B.
+    explanation: Berlijn is de hoofdstad van Duitsland.

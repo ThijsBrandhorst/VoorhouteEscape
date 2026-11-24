@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd629f8701fa4084090fb4a2784ae09c, type: 3}
+  m_Name: PlayerSettings
+  m_EditorClassIdentifier: 
+  walkSpeed: 4
+  sprintSpeed: 6.5
+  acceleration: 30
+  deceleration: 35
+  airControl: 0.35
+  jumpHeight: 1.1
+  gravity: 20
+  terminalVelocity: 40
+  groundStickVelocity: 2
+  groundCheckRadius: 0.28
+  groundCheckDistance: 0.12
+  groundLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  horizontalSensitivity: 0.12
+  verticalSensitivity: 0.12
+  maxLookAngle: 85
+  invertY: 0
+  headBobEnabled: 1
+  walkBobFrequency: 1.9
+  sprintBobFrequency: 2.6
+  walkBobVertical: 0.03
+  sprintBobVertical: 0.05
+  walkBobHorizontal: 0.015
+  sprintBobHorizontal: 0.03
+  bobTransitionSpeed: 8
+  landingEffectEnabled: 1
+  landingIntensity: 0.25
+  minLandingImpactSpeed: 3
+  maxLandingImpactSpeed: 18
+  landingSpringStiffness: 80
+  landingSpringDamping: 12
+  staminaEnabled: 0
+  maxStamina: 100
+  staminaDrainPerSecond: 25
+  staminaRegenPerSecond: 18
+  staminaRegenDelay: 0.8
+  minStaminaToSprint: 20
